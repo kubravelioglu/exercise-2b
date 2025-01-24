@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+author: "Kubra"
+format: html
+editor: visual
+---
+
+##Notes
+
+*authenticating Your GitHub Account: First
+1. winget install --id GitHub.cli
+2. "git add" * or "git add ." will add all updated file or you can add git add "file".
+3. Make sure to do at least one commit.
+
+##Codes from class
+
+```{r}
+library(tidyverse)
+f <- file.choose()
+d <- read_csv(f, col_names = TRUE)
+class(d)
+glimpse(d)
+head(d)
+tail(d)
+```
+
